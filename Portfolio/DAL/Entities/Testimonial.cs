@@ -1,6 +1,6 @@
 ﻿namespace Portfolio.DAL.Entities
 {
-    public class TEstimonail
+    public class Testimonial
     {
         public int TestimonialID { get; set; }
         public string TestimonialName { get; set; }
