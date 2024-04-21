@@ -1,7 +1,11 @@
-﻿namespace Portfolio.DAL.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Portfolio.DAL.Entities
 {
     public class Message
     {
+        [Key]
+
         public int MessageID { get; set; }
         public string NameSurname {  get; set; }
         public string Subject { get; set; }

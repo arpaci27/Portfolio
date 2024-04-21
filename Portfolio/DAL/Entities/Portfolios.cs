@@ -2,8 +2,9 @@
 
 namespace Portfolio.DAL.Entities
 {
-    public class Portfolios
+    public class Portfolios     
     {
+        [Key]
         public int PorftolioID { get; set; }
         public string Title { get; set; }
         public string SubTitle {  get; set; }

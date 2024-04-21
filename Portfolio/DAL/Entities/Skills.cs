@@ -1,7 +1,11 @@
-﻿namespace Portfolio.DAL.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Portfolio.DAL.Entities
 {
     public class Skills
     {
+        [Key]
+
         public int SkillID { get; set; }
         public int Value { get; set; }
 
